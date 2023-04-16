@@ -1,0 +1,104 @@
+    1  clear
+    2  sudo apt update
+    3  clear
+    4  sudo apt install git-all
+    5  clear
+    6  git --version
+    7  git config --global user.name admin
+    8  git config --global user.email admin@gmail.com
+    9  git remote
+   10  mkdir git
+   11  cd git/
+   12  ls
+   13  git init
+   14  git remote
+   15  git remote add origin git@github.com:rwirba1/myapp.git
+   16  git remote
+   17  git clone git@github.com:rwirba1/myapp.git
+   18  ssh-keygen -t ed25519 -C admin@gmail.com
+   19  cd .
+   20  cd .ssh
+   21  cd .shh
+   22  cd .ssh
+   23  cd
+   24  cd .ssh
+   25  ls
+   26  cat id_ed25519.pub
+   27  cd .
+   28  cd
+   29  ls
+   30  cd git/
+   31  ls
+   32  git clone git@github.com:rwirba1/myapp.git
+   33  git status
+   34  git add myapp
+   35  git add .
+   36  cd myapp/
+   37  git status
+   38  vim index.html
+   39  git status
+   40  git add index.html
+   41  git status
+   42  git commit -m "created a new index file"
+   43  git status
+   44  git log
+   45  git branch
+   46  ls
+   47  git branch my-new-branch
+   48  git branch
+   49  git checkout my-new-branch
+   50  git branch
+   51  vim index.html
+   52  git status
+   53  ls
+   54  vim test.txt
+   55  git status
+   56  git add .
+   57  git status
+   58  git commit -m "edited index and added test file"
+   59  git status
+   60  ls
+   61  git branch
+   62  git checkout main
+   63  ls
+   64  git merge my-new-branch
+   65  ls
+   66  git status
+   67  git push origin main
+   68  git push origin my-new-branch
+   69  git branch
+   70  git checkout my-new-branch
+   71  ls
+   72  vim index.html
+   73  vim test.txt
+   74  ls
+   75  git status
+   76  git add .
+   77  git status
+   78  git commit -m "made some more changes"
+   79  git log
+   80  git status
+   81  vim install.yml
+   82  ls
+   83  git status
+   84  git add .
+   85  git commit -m "added and change files"
+   86  ls
+   87  git branch
+   88  git pull
+   89  ls
+   90  git pull origin my-new-branch
+   91  git status
+   92  ls
+   93  git branch
+   94  git clone git@github.com:rwirba1/myapp.git
+   95  ls
+   96  cd myapp/
+   97  ls
+   98  cd ..
+   99  ls
+  100  git status
+  101  git add .
+  102  git commit -m "added new"
+  103  git status
+  104  history
